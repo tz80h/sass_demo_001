@@ -1,0 +1,9 @@
+//%占位选择器
+%alert{
+    background-color: green;
+}
+
+.alert-success{
+    @extend %alert;
+    color: red;
+}

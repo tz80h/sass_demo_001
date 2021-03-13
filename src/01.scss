@@ -1,0 +1,8 @@
+@import "css.css";
+@import "http://www.xxx.com/xxx";
+@import url('css.css');
+@import "part01.scss";
+$bg-color:#eeeeee;
+.header{
+    background-color: $bg_color;
+}

@@ -1,0 +1,12 @@
+// 链式继承
+.one{
+    border: 1px solid gray;
+}
+.two{
+    @extend .one;
+    color: blue;
+}
+.three{
+    @extend .two;
+    border-radius: 5px;
+}

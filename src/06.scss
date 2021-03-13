@@ -1,0 +1,10 @@
+// @at-root与& 练习
+body{
+    background-color: lightslategray;
+    @at-root .text-info{
+        color: black;
+        @at-root nav &{
+            color:green;
+        }
+    }
+}

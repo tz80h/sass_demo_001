@@ -1,0 +1,16 @@
+$layers:(default: 0, modal:1000, dropdown:1001, grid:0);
+@function getzIndex($layer:default){
+    @return map-get($layers, $layer);
+}
+
+.modal{
+   z-index: getzIndex(modal);
+}
+
+.dropdown{
+    z-index: getzIndex(dropdown);
+}
+
+p{
+    z-index: getzIndex(default);
+}

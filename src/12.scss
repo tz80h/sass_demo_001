@@ -1,0 +1,39 @@
+// 变量操作
+$width1:25px;
+$width2:10px;
+
+.box{
+    width: $width1 - $width2;
+}
+
+a:hover{
+    cursor: e + -resize;
+}
+
+a::before{
+    content: "A" + bc;
+}
+
+a::before{
+    content: A + 'bc';
+}
+
+p{
+    margin: 3px + 4px auto;
+}
+
+$version: 3;
+p::before{
+    content: "Hello,Sass #{$version}";
+}
+
+p{
+    font: 20px/10px;
+    font: 20px / 10px;
+    font: (20px / 10px);
+    font: (20px / 10);
+    width: $width1/2;
+    width: round($width1)/2;
+    height: 100px/2;
+    height: 100/2px;
+}

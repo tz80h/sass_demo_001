@@ -1,0 +1,36 @@
+.box {
+  width: 15px;
+}
+
+a:hover {
+  cursor: e-resize;
+}
+
+a::before {
+  content: "Abc";
+}
+
+a::before {
+  content: Abc;
+}
+
+p {
+  margin: 7px auto;
+}
+
+p::before {
+  content: "Hello,Sass 3";
+}
+
+p {
+  font: 20px/10px;
+  font: 20px/10px;
+  font: 2;
+  font: 2px;
+  width: 12.5px;
+  width: 12.5px;
+  height: 100px/2;
+  height: 100/2px;
+}
+
+/*# sourceMappingURL=12.css.map */

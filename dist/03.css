@@ -1,0 +1,12 @@
+body {
+  background-color: lightgray;
+}
+body .header {
+  background-color: lightgreen;
+}
+body .footer {
+  background-color: lightpink;
+  background-size: 100% 50%;
+}
+
+/*# sourceMappingURL=03.css.map */

@@ -1,0 +1,9 @@
+.one a, .one .twe .three, .twe .one .three {
+  background-color: blue;
+}
+
+.twe .three {
+  color: white;
+}
+
+/*# sourceMappingURL=09.css.map */

@@ -1,0 +1,29 @@
+$border-radius: 5px;
+$bg-colors:(success: lightgreen,info:lightblue,  warning:lightyellow,danger:lightcoral);
+$border-color: #06e9c6 #bce8f1 #faebcc #ebccd1;
+
+.alert{
+    padding:10px 20px;
+    font-size: 14px;
+    color: black;
+    border-radius: $border-radius;
+    margin: 20px;
+}
+.alert-info{
+    background-color: map-get($map: $bg-colors, $key: info);
+    border-color: nth($border-color,2);
+}
+.alert-success{
+    background-color:  map-get($map: $bg-colors, $key: success);
+    border-color: nth($border-color,1);
+
+}
+.alert-warning{
+    background-color:  map-get($map: $bg-colors, $key: warning);
+    border-color: nth($border-color,3);
+
+}
+.alert-danger{
+    background-color:  map-get($map: $bg-colors, $key: danger);
+    border-color: nth($border-color,4);
+}

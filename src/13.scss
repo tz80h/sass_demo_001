@@ -1,0 +1,26 @@
+// mixin简单示例
+@mixin  cont {
+    color: red;
+}
+body{
+    @include cont;
+}
+@mixin  cont1($color:red) {
+    color: $color;
+}
+p{
+    @include cont1;
+}
+h1{
+    @include cont1(black);
+}
+@mixin  cont2($color:red, $fontSize:14px) {
+    color: $color;
+    font-size: $fontSize;
+}
+h2{
+    @include cont2;
+}
+h3{
+    @include cont2($fontSize:18px )
+}

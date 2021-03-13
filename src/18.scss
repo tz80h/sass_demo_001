@@ -1,0 +1,6 @@
+
+// str-length()、str-index()用法
+p{
+    line-height: str-length('ab');
+    z-index: str-index('abcdefg','de');
+}

@@ -1,0 +1,9 @@
+// 继承交叉合并
+.one a{
+    background-color: blue;
+}
+
+.twe .three{
+    @extend a;
+    color: white;
+}

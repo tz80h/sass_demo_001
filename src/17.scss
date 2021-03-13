@@ -1,0 +1,7 @@
+// lighten()、darken()用法
+$white:white;
+$black: black;
+body{
+    color: lighten($black, 1);
+    background-color: darken($white, 1);
+}

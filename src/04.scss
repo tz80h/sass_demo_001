@@ -1,0 +1,11 @@
+//&--引用父选择器
+a{
+    color: black;
+    &:hover{
+        color: blue;
+        text-decoration: underline;
+    }
+    &.content{
+        font-size: 20px;
+    }
+}

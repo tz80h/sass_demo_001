@@ -1,0 +1,11 @@
+body {
+  background-color: lightslategray;
+}
+.text-info {
+  color: black;
+}
+nav .text-info {
+  color: green;
+}
+
+/*# sourceMappingURL=06.css.map */

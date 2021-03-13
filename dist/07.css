@@ -1,0 +1,13 @@
+.alert, .alert-success {
+  background-color: green;
+}
+
+.small, .alert-success {
+  font-size: 10px;
+}
+
+.alert-success {
+  color: red;
+}
+
+/*# sourceMappingURL=07.css.map */

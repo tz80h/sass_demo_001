@@ -1,0 +1,12 @@
+//继承与多继承
+.alert{
+    background-color: green;
+}
+.small{
+    font-size: 10px;
+}
+.alert-success{
+    @extend .alert, .small;
+    // @extend .small;
+    color: red;
+}

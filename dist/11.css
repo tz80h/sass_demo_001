@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* 数字类型 */
+p {
+  font-size: 14px;
+}
+
+/* 字符串类型 */
+.container {
+  font-size: 14px;
+}
+
+/* 布尔类型 */
+/* Null类型 */
+body {
+  color: red;
+}
+
+/* 颜色类型 */
+body {
+  color: rgba(100, 100, 100, 0.5);
+}
+
+/*# sourceMappingURL=11.css.map */

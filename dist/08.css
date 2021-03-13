@@ -1,0 +1,13 @@
+.one, .two, .three {
+  border: 1px solid gray;
+}
+
+.two, .three {
+  color: blue;
+}
+
+.three {
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=08.css.map */

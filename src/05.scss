@@ -1,0 +1,28 @@
+
+//@at-root，跳出嵌套练习
+body{
+    @media screen and (max-width:768px) {
+        .container{
+           background-color: lightgreen;
+        }
+    }
+    @media screen and (max-width:970px) {
+        @at-root .container{
+           background-color: lightskyblue;
+        }
+    }
+    @media screen and (max-width:970px) {
+        @at-root (without:media){
+            .container{
+                background-color: lightskyblue;
+             }
+        } 
+    }
+    @media screen and (max-width:970px) {
+        @at-root (without:media rule){
+            .container{
+                background-color: lightskyblue;
+             }
+        } 
+    }
+}

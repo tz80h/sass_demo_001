@@ -1,0 +1,18 @@
+@media screen and (max-width: 768px) {
+  body .container {
+    background-color: lightgreen;
+  }
+}
+@media screen and (max-width: 970px) {
+  .container {
+    background-color: lightskyblue;
+  }
+}
+body .container {
+  background-color: lightskyblue;
+}
+.container {
+  background-color: lightskyblue;
+}
+
+/*# sourceMappingURL=05.css.map */

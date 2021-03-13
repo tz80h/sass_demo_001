@@ -1,0 +1,12 @@
+a {
+  color: black;
+}
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+a.content {
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=04.css.map */

@@ -1,0 +1,6 @@
+// rgb()、rgba()用法
+$black-color:rgb(0, 0, 0);
+body{
+    color:rgb(255,255,255);
+    background-color: rgba($black-color,0.5);
+}

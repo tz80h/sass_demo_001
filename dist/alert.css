@@ -1,0 +1,29 @@
+.alert {
+  padding: 10px 20px;
+  font-size: 14px;
+  color: black;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.alert-info {
+  background-color: lightblue;
+  border-color: #bce8f1;
+}
+
+.alert-success {
+  background-color: lightgreen;
+  border-color: #06e9c6;
+}
+
+.alert-warning {
+  background-color: lightyellow;
+  border-color: #faebcc;
+}
+
+.alert-danger {
+  background-color: lightcoral;
+  border-color: #ebccd1;
+}
+
+/*# sourceMappingURL=alert.css.map */

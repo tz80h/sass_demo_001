@@ -1,0 +1,11 @@
+
+/* 变量特殊用法,
+将变量名用作类名称 */
+$className: main;
+$text-info:lightgreen;
+.#{$className}{
+    /* 变量名称可使用连字符(-)
+        且下划线(_)与连字符等价
+    */
+    color:$text_info
+}
